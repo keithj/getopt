@@ -7,7 +7,7 @@
 ;;;; Author:        Kevin M. Rosenberg
 ;;;; Date Started:  Sep 2003
 ;;;;
-;;;; $Id: tests.lisp 7819 2003-09-11 16:20:23Z kevin $
+;;;; $Id$
 ;;;;
 ;;;; This file is Copyright (c) 2003 by Kevin M. Rosenberg
 ;;;;
