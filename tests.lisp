@@ -66,5 +66,7 @@
 	       (getopt '("--a=10") '(("along" :optional)))) 
       (test-mv '(nil nil ("a"))
 	       (getopt '("--a=10") '(("along" :optional) ("aboot" :optional))))
+      (test-mv '(("a") nil nil)
+               (getopt '("a") '(("a" :none))))
       ))
   t)

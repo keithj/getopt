@@ -109,7 +109,7 @@ opts is a list of option lists. The fields of the list are
 	(multiple-value-bind (option-list option-type base-name argument)
 	    (match-option (car pos) options)
 	  (cond
-	    (option-list
+	    ((and option-list (not (eq option-type :arg)))
 	     (cond
 	       (argument
 		(case (second option-list)
