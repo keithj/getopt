@@ -1,0 +1,14 @@
+Source: cl-getopt
+Section: devel
+Priority: optional
+Maintainer: Kevin M. Rosenberg <kmr@debian.org>
+Build-Depends-Indep: debhelper (>= 4.0.0)
+Standards-Version: 3.6.1.0
+
+Package: cl-getopt
+Architecture: all
+Depends: ${shlibs:Depends}, common-lisp-controller, cl-ptester
+Description: Common Lisp utility for command-line processing
+ This package provides Common Lisp programs processing of command-line
+ arguments. The command-line processing is based on GNU's getopt_long
+ module.

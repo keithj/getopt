@@ -1,0 +1,5 @@
+cl-getopt (1.0-1) unstable; urgency=low
+
+  * Initial upload
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Thu, 11 Sep 2003 19:35:18 -0600
