@@ -1,3 +1,9 @@
+cl-getopt (1.0.1-1) unstable; urgency=low
+
+  * Remove extraneous fasls
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Mon, 22 Sep 2003 09:58:18 -0600
+
 cl-getopt (1.0-1) unstable; urgency=low
 
   * Initial upload
