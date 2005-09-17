@@ -1,3 +1,9 @@
+cl-getopt (1.1.0-2) unstable; urgency=low
+
+  * New upstream URI
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Sat, 17 Sep 2005 15:34:18 -0600
+
 cl-getopt (1.1.0-1) unstable; urgency=low
 
   * Add patch from Mark Simpson. Bug fix and new test.
