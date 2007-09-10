@@ -1,3 +1,9 @@
+cl-getopt (1.1.0-3) unstable; urgency=low
+
+  * debian/control: use build-depends, update standards-version
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Sun, 09 Sep 2007 19:35:59 -0600
+
 cl-getopt (1.1.0-2) unstable; urgency=low
 
   * New upstream URI
