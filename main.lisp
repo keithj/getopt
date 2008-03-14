@@ -28,7 +28,7 @@
   (and (> (length arg) 2)
        (char= #\- (schar arg 0))
        (char= #\- (schar arg 1))
-       (char/= #\- (schar arg 3))))
+       (char/= #\- (schar arg 2))))
 
 (defun decompose-arg (arg option-type)
   "Returns base-name,argument"
@@ -120,11 +120,12 @@ opts is a list of option lists. The fields of the list are
                ((null argument)
                 (if (and (eq :required (second option-list)) (null (cdr pos)))
                     (push base-name errors)
-                    (if (or (is-short-option (second pos))
+                    (if (or (eq :none (second option-list))
+                            (is-short-option (second pos))
                             (is-long-option (second pos)))
                         (if (eq :required (second option-list))
                             (push base-name errors)
-                            (push (cons base-name (third option-list)) out-args))
+                            (push (cons base-name (third option-list)) out-opts))
                         (progn
                           (push (cons base-name (second pos)) out-opts)
                           (setq pos (cdr pos))))))))
