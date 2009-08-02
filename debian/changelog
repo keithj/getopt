@@ -1,3 +1,14 @@
+cl-getopt (1.2.0-2) unstable; urgency=low
+
+  * debian/watch: New file
+  * debian/control: Require debhelper 7. Change to new lisp section.
+  Add Vcs-Git and Homepage fields.
+  * debian/compat: Update to version 7
+  * debian/rules: Update for debhelper 7, architecture-independent build
+  * debian/{prerm,postrm}: Remove path from binary function
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Sun, 02 Aug 2009 04:30:20 -0600
+
 cl-getopt (1.2.0-1) unstable; urgency=low
 
   * New upstream
