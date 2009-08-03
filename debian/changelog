@@ -1,3 +1,10 @@
+cl-getopt (1.2.0-3) unstable; urgency=low
+
+  * Build with debhelper extension dh-lisp
+  * control: Add Vcs-Browser field. Fix Depends field.
+
+ -- Kevin M. Rosenberg <kmr@debian.org>  Mon, 03 Aug 2009 13:57:20 -0600
+
 cl-getopt (1.2.0-2) unstable; urgency=low
 
   * debian/watch: New file
