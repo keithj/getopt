@@ -19,7 +19,7 @@
 (defsystem getopt
     :name "getopt"
     :author "Kevin Rosenberg <kevin@rosenberg.net>"
-    :version "1.0"
+    :version "1.2"
     :maintainer "Kevin M. Rosenberg <kmr@debian.org>"
     :licence "BSD"
 
